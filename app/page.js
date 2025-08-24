@@ -7,6 +7,7 @@ import { MdOutlineStar } from "react-icons/md";
 import { RiTeamFill } from "react-icons/ri";
 import ReviewsSlider from '@/components/ReviewsSlider';
 import PlanCard from '@/components/PlanCard';
+import Footer from '@/components/Footer';
 
 const HeroSection = () => {
   const handleGetStarted = () => {
@@ -169,6 +170,7 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   )
 }
