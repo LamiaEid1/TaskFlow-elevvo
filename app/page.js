@@ -5,6 +5,7 @@ import Button from '@/components/Button'
 import FeatureCard from '@/components/FeatureCard'
 import { MdOutlineStar } from "react-icons/md";
 import { RiTeamFill } from "react-icons/ri";
+import ReviewsSlider from '@/components/ReviewsSlider';
 
 const HeroSection = () => {
   const handleGetStarted = () => {
@@ -85,6 +86,10 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
+    <div className='-mt-16'>
+  <ReviewsSlider />
+</div>
+
     </div>
   )
 }

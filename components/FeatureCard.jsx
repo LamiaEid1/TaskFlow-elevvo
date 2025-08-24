@@ -8,7 +8,7 @@ const FeatureCard = ({
   className = ""
 }) => {
   return (
-    <div className={`-mt-4 md:-mt-10 bg-white rounded-2xl p-6 md:p-12 lg:p-20 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 ${className}`}>
+    <div className={`-mt-4 md:-mt-10 bg-white rounded-2xl p-6 md:p-12 lg:p-10 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 ${className}`}>
       
       {/* Icon Container */}
       <div className="flex justify-center mb-6 md:mb-10">
