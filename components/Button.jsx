@@ -38,7 +38,7 @@ const Button = ({
       onClick={onClick}
       disabled={disabled}
     >
-     <div className='text-blue-700'>
+     <div className='text-[#2563EB]'>
         {children}
      </div>
     </button>
